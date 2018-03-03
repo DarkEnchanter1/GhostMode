@@ -1,0 +1,17 @@
+[
+{
+
+  "modid": "ghostmode",
+  "name": "Ghost Mode",
+  "description": "A mod that adds a new gamemode, in which players are ghosts and can possess different objects.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["DarkEnchanter1"],
+  "credits": "DarkEnchanter1, for creating this mod, and the Cubic Chunks discord, for providing the storm that created this idea.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

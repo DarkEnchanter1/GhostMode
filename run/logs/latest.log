@@ -1,72 +1,9 @@
-[00:07:18] [main/INFO]: Setting user: Player737
-[00:07:21] [main/WARN]: Skipping bad option: lastServer:
-[00:07:21] [main/INFO]: LWJGL Version: 2.9.4
-[00:07:25] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Ghost Mode
-[00:07:26] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[00:07:26] [Thread-4/INFO]: Initializing LWJGL OpenAL
-[00:07:26] [Thread-4/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[00:07:26] [Thread-4/INFO]: OpenAL initialized.
-[00:07:26] [Sound Library Loader/INFO]: Sound engine started
-[00:07:28] [main/INFO]: Created: 512x512 textures-atlas
-[00:07:29] [main/WARN]: Skipping bad option: lastServer:
-[00:07:29] [main/INFO]: Narrator library successfully loaded
-[00:07:30] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[00:07:33] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
-[00:07:33] [Server thread/INFO]: Generating keypair
-[00:07:33] [Server thread/INFO]: Loaded 488 advancements
-[00:07:33] [Server thread/INFO]: Preparing start region for level 0
-[00:07:35] [Server thread/INFO]: Changing view distance to 12, from 10
-[00:07:36] [Server thread/INFO]: Player737[local:E:b3bbb45a] logged in with entity id 228 at (392.7924220683886, 68.0, 499.9630024236961)
-[00:07:36] [Server thread/INFO]: Player737 joined the game
-[00:07:37] [Server thread/INFO]: Saving and pausing game...
-[00:07:37] [Server thread/INFO]: Saving chunks for level 'Hello!'/overworld
-[00:07:37] [Server thread/INFO]: Saving chunks for level 'Hello!'/the_nether
-[00:07:37] [Server thread/INFO]: Saving chunks for level 'Hello!'/the_end
-[00:07:38] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@570e695f[id=25887e3a-1ce2-3acf-9352-3d844017a709,name=Player737,properties={},legacy=false]
-com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
-	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
-	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3188) [Minecraft.class:?]
-	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_151]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_151]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_151]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_151]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_151]
-[00:07:58] [Server thread/INFO]: Player737 was shot by Skeleton
-[00:07:58] [main/INFO]: [CHAT] Player737 was shot by Skeleton
-[00:07:58] [main/INFO]: Loaded 9 advancements
-[00:08:17] [main/INFO]: Loaded 16 advancements
-[00:08:26] [main/INFO]: Loaded 16 advancements
-[00:08:40] [main/INFO]: Loaded 16 advancements
-[00:09:19] [Server thread/INFO]: Player737 has made the advancement [Monster Hunter]
-[00:09:19] [main/INFO]: [CHAT] Player737 has made the advancement [Monster Hunter]
-[00:09:19] [main/INFO]: Loaded 17 advancements
-[00:09:20] [main/INFO]: Loaded 21 advancements
-[00:09:40] [Server thread/INFO]: Saving and pausing game...
-[00:09:40] [Server thread/INFO]: Saving chunks for level 'Hello!'/overworld
-[00:09:40] [Server thread/INFO]: Saving chunks for level 'Hello!'/the_nether
-[00:09:40] [Server thread/INFO]: Saving chunks for level 'Hello!'/the_end
-[00:09:40] [Server thread/INFO]: Stopping server
-[00:09:40] [Server thread/INFO]: Saving players
-[00:09:40] [Server thread/INFO]: Player737 lost connection: Disconnected
-[00:09:40] [Server thread/INFO]: Player737 left the game
-[00:09:40] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[00:09:40] [Server thread/INFO]: Saving worlds
-[00:09:40] [Server thread/INFO]: Saving chunks for level 'Hello!'/overworld
-[00:09:40] [Server thread/INFO]: Saving chunks for level 'Hello!'/the_nether
-[00:09:40] [Server thread/INFO]: Saving chunks for level 'Hello!'/the_end
-[00:09:42] [main/INFO]: Stopping!
-[00:09:42] [main/INFO]: SoundSystem shutting down...
-[00:09:42] [main/WARN]: Author: Paul Lamb, www.paulscode.com
+[17:10:04] [main/INFO]: Setting user: Player751
+[17:10:07] [main/WARN]: Skipping bad option: lastServer:
+[17:10:07] [main/INFO]: LWJGL Version: 2.9.4
+[17:10:10] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Ghost Mode
+[17:10:11] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[17:10:12] [Thread-4/INFO]: Initializing LWJGL OpenAL
+[17:10:12] [Thread-4/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:10:12] [Thread-4/INFO]: OpenAL initialized.
+[17:10:12] [Sound Library Loader/INFO]: Sound engine started
